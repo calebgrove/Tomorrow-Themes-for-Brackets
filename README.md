@@ -1,8 +1,8 @@
 ## To Use
 
 1. Install [Themes for Brackets](https://github.com/Jacse/themes-for-brackets) from the extension manager.
-2. Download this repo.
-3. Move the CSS files to `themesforbrackets/themes/`.
+2. [Download this repo](https://github.com/CalebGrove/Tomorrow-Themes-for-Brackets/archive/master.zip).
+3. Move the CSS files to `/themesforbrackets/themes/`.
 4. Restart or refresh Brackets, then choose theme from the `Themes` menu.
 
 ## Thanks
