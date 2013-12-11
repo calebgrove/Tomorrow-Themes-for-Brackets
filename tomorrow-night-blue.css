@@ -1,0 +1,241 @@
+/* Tomorrow Night Blue Colors */
+/*
+BearTheme is bare theme for styling Adobe Brackets (Code Mirror) editor. Some elements need be overwritien, if you find comment with "may need !important", give it a try.
+Good luck, have fun!
+*/
+/*Sidebar*/
+/*General sidebar style*/
+/*"Working files" header*/
+/*Working files style*/
+#sidebar #open-files-container ul li.selected a {
+  color: #bbdaff; }
+
+/*Selected working file*/
+#sidebar #open-files-container ul li.selected a span.extension {
+  color: #bbdaff; }
+
+/*Selected working file's extension*/
+/*Icon next to a file, dot, X etc.*/
+/*Project file header*/
+/*Browser header, path select, search, X etc.*/
+/*Path select toggle*/
+/*Currently selected project title*/
+/*Select toggle arrow - SVG image*/
+/*Close all icon*/
+/*Search file icon*/
+/*Project files container*/
+/*Project files - WITHOUT header*/
+/*Icon next to files (left side), like close/open arrow for parent element*/
+/*Closed tree element*/
+/*Open tree element*/
+/*Project container file*/
+/*Project container file hovered*/
+/*Project container file's extension*/
+/*Main area*/
+.CodeMirror {
+  background: #002451;
+  font-family: 'Source Code Pro', Monaco;
+  font-weight: 600; }
+
+/*Main coding area, without line count.*/
+.CodeMirror-lines {
+  color: white;
+  line-height: 16px; }
+
+/*Code lines, syntax coloring has higher priority then .CodeMirror-lines*/
+/*Scrollbar vertical*/
+/*Brackets is based on webkit, so you can use scrollbar styling. Example below contains 8px width, grey scrollbar for the main area. You can use it with other section, just remember about z-indexes or things like 'selected' with overlap your scrollbar.*/
+/*Scrollbar horizontal*/
+.CodeMirror .CodeMirror-scroll .CodeMirror-gutters {
+  background: #002451; }
+
+/*Left vertical bar with line count*/
+/*Left bar with line count - it will affect global line count, BUT line count in inline editor won't be changed.*/
+/*Line count bar only, without "gutter"*/
+/*It's exactly .CodeMirror-gutter{} without .CodeMirror-linenumbers{}.*/
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+  background: rgba(255, 255, 255, 0.07); }
+
+/*active line number*/
+/*Syntax elements & action*/
+.CodeMirror .cm-atom {
+  color: #99ffff; }
+
+/*Atribbute value ex. #f00 in color:#f00;*/
+.CodeMirror .cm-def {
+  color: white; }
+
+/*variable definition*/
+.CodeMirror .cm-number {
+  color: #ffc58f; }
+
+/*Numbers*/
+.CodeMirror .cm-variable {
+  color: #ffc58f; }
+
+/*Variable name ex. class Variable_name */
+.CodeMirror .cm-variable-2 {
+  color: #bbdaff; }
+
+/*Variable declaration ex. $variable */
+.CodeMirror .cm-property {
+  color: #ffeead; }
+
+/*Property ex. color in color:#f00;*/
+.CodeMirror .cm-operator {
+  color: white; }
+
+/*Operators ex. dots (:) between property and atom value */
+.CodeMirror .cm-comment {
+  color: #7285b7; }
+
+/*Comment*/
+.CodeMirror .cm-string {
+  color: #d1f1a9; }
+
+/*String elements ex. "description" in name="description" - including quotation*/
+.CodeMirror .cm-meta {
+  color: #ff9da4; }
+
+/*Meta elements like ex.: <!DOCTYPE html>*/
+.CodeMirror .cm-qualifier {
+  color: #ff9da4; }
+
+/*Final qualifier like css class ex.: .cm-qualifier*/
+.CodeMirror .cm-tag {
+  color: #ebbbff; }
+
+/*Tags ex. ul or <ul>*/
+.CodeMirror .cm-attribute {
+  color: #ffc58f; }
+
+/*Attribute ex. rel, href, name*/
+.CodeMirror .cm-keyword {
+  color: #ebbbff; }
+
+/*Element call ex. array, class, public function, if, elseif, !important*/
+.CodeMirror .CodeMirror-matchingtag {
+  border-bottom: 1px solid #be22ff;
+  color: #ebbbff !important;
+  background: rgba(0, 0, 0, 0) !important; }
+
+/*Matching tags, open/close. Try !important for bg, color etc. if it doesn't work*/
+div.CodeMirror span.CodeMirror-matchingbracket {
+  border-bottom: 1px solid #b3b3b3;
+  color: white !important; }
+
+/*Matching brackets, open/close*/
+.CodeMirror-selected {
+  background: #003b84 !important; }
+
+/*Selected lines - may need !important*/
+.CodeMirror-activeline-background {
+  background-color: rgba(0, 0, 0, 0) !important; }
+
+/*Active line - may need !important*/
+div.CodeMirror span.CodeMirror-searching {
+  background: #ff9da4 !important;
+  color: #002451 !important;
+  padding: 1px 5px; }
+
+/*Search result highlight- may need !important*/
+.CodeMirror-cursor {
+  border-left: 1px solid #d1f1a9 !important; }
+
+/*Status bar - bottom*/
+#status-bar {
+  background-color: #3B3F41;
+  color: white; }
+
+/*Bottom status bar*/
+/*Line & column info*/
+/*Second part of the status bar*/
+/*Indent status info*/
+/*Language info*/
+/*File size*/
+/*File path*/
+/*Status bar - ex. debug area*/
+/*Bottom error panel main wrapper*/
+/*Error panel toolbar with title and X*/
+/*Error panel toolbar title eg. "JSLint Errors"*/
+/*X to close error panel*/
+/*Table container with errors*/
+/*Table with errors - additional classes for look: table-striped table-condensed row-highlight, fimilar for people working with Boostrap*/
+/*Single row containing line number, "error" message and code info*/
+/*Line number for error row*/
+/*There are no separated classes for error and code excerpt, the only hint I can give is: error is second child and excerpt is 3rd chaild of tr.*/
+/*Right toolbar - live preview, extensions*/
+/*Whole toolbar*/
+/*Buttons group*/
+/*Modal windows like context-menu, quick-view or hint container*/
+/*Dropdown menu, available under right-click - may need !important*/
+/*Single option, treat it like <li> ex. background*/
+/*If you need different dropdown style for different sections, use IDs below.*/
+/*Dropdown menu for project files section*/
+/*Dropdown menu for editor section*/
+/*Dropdown menu for inline editor like Quick Edit*/
+/*--back to general--*/
+/*Code hint menu, dropdown visible when writing code.*/
+/*Code hint menu option, dropdown visible when writing code. Treat like <li>*/
+/*Single hint in dropdown menu, automaticlly puts already typed text into <strong>*/
+/*Inline editor(Ex. Quick Edit - Ctrl + E)*/
+.inline-widget {
+  background: #001937;
+  margin: 4px 0;
+  color: white;
+  text-shadow: none !important; }
+
+/*Inline widget wrap, won't affect line count bar*/
+.inline-text-editor {
+  color: white; }
+
+/*Whole editing area - without active rule*/
+/*Code lines in inline editor, syntax coloring has higher priority then .CodeMirror-lines*/
+.inline-editor-header {
+  color: white; }
+
+/*Inline text editor header, includes info about inline editor file*/
+.inline-editor-header a.filename {
+  color: white !important; }
+
+/*Filename visible in inline editor - may need !important*/
+.inline-editor-header a.filename span.line-number {
+  color: white !important; }
+
+/*Line number next to filename - may need !important*/
+/*Button responsible for "New rule"*/
+/*Global rules apply to inline editor scroll, just use .inline-widget class to target only bar options of this area. Example below.*/
+/*Inline editor "gutter", won't affect line count in inline editor*/
+/*Inline editor line numbers bar - no "gutter"*/
+/*Related container with similar rules*/
+/*Currently selected style rule*/
+/*Currently selected style rule from related container - text*/
+/*List element with rule*/
+/*File information for rule*/
+/*Inline widget - extended color picker*/
+/*Extended color editor area*/
+.inline-widget .gradient-overlay, .inline-widget .luminosity-gradient {
+  border-bottom: 0 !important; }
+
+/*Color selection square - big one*/
+/*Hue slider*/
+/*Opacity slider*/
+/*Input for color value*/
+/*Buttons for RGBa, HEX, HSLA*/
+.inline-widget .color-editor ul.button-bar li a {
+  border: 1px solid white !important; }
+
+/*Single buttons <li>*/
+/*RGBa button*/
+/*HEX button*/
+/*HSLA button*/
+/*Big swatches with currently picked and original color*/
+/*Current color swatch*/
+/*Original color swatch*/
+.inline-widget .color-editor ul.swatches {
+  border-bottom: 0 !important;
+  box-shadow: 0 !important; }
+
+/*Small swatches with color suggestions*/
+/*Swatch sample*/
+/*Swatch label with color value*/
